@@ -9,3 +9,11 @@ pom.xml.asc
 /.nrepl-port
 .hgignore
 .hg/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+
+.dockerignore
