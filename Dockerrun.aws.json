@@ -2,7 +2,7 @@
   "AWSEBDockerrunVersion": 2,
   "volumes": [
     {
-      "name": "php-app",
+      "name": "clj-app",
       "host": {
         "sourcePath": "/var/app/current/clj-app"
       }
